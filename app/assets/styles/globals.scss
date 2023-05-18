@@ -1,0 +1,10 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+@import './fonts.scss';
+@import './typography.scss';
+
+body {
+  font-family: 'CodecPro', Arial, Helvetica, sans-serif;
+  overscroll-behavior: none;
+}
