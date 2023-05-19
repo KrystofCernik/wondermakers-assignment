@@ -26,7 +26,7 @@ export default function Hero() {
           <h2 className='mb-1.5'>Reluvotion</h2>
           <p className="text-center text-grey-dark max-w-[455px]">Transforming volunteering with a mobile app that empowers users to make a positive impact.</p>
         </div>
-        <div className='flex items-center justify-start md:justify-center gap-4 overflow-y-hidden overflow-x-auto whitespace-nowrap'>
+        <div className='flex items-center justify-start md:justify-center gap-4'>
           {services.map((service, index) => (
             <Pill
               key={service + '_' + index}
