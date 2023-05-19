@@ -23,8 +23,7 @@ module.exports = {
       container: {
         screens: {
           '2xl': '1560px',
-        },
-        padding: '2rem'
+        }
       },
       translate: {
         'fullGap': 'calc(100% + 2rem)',
